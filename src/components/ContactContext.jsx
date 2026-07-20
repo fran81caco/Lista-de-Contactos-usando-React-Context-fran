@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from "react";
 
 export const ContactContext = createContext();
 
-const API_URL = "https://playground.4geeks.com/contact/agendas/Francisco/contacts";
+const API_URL = "https://playground.4geeks.com/contact/agendas/Francisco";
 
 export const ContactProvider = ({ children }) => {
 
